@@ -23,7 +23,7 @@ body {
     */
     margin: 5px;
     /*      TOP  RIGHT  BOTTOM LEFT */
-    margin: 20px 10px   25px   15px;
+    /* margin: 20px 10px   25px   15px; */
     /* 
     margin-top: 20px;
     margin-bottom: 25px;
@@ -32,11 +32,27 @@ body {
     */
     padding: 5px;
     /*      TOP  RIGHT  BOTTOM LEFT */
-    padding: 20px 10px   25px   15px;
+    /* padding: 20px 10px   25px   15px; */
     /* 
     padding-right: 10px;
     padding-bottom: 15px;
     padding-left: 20px;
     padding-top: 25px; 
     */
+
+    /* to align text/inline elements */
+    text-align: center;
+
+    /* to curve a border */
+    border-radius: 10px;
+
+    /* to give an 3D effect */
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.25);
 }
+
+.picture-img {
+    border: thin solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
