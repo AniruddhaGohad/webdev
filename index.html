@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- ROOT TAG -->
+<html>
+    <!-- HEAD => THE BRAIN OF HTML -->
+    <head>
+        <title>Web Dev</title>
+        <!-- attribute -->
+        <meta name="Author" content="Aniruddha Gohad">
+        <meta name="Description" content="This is where I teach web dev">
+        <link href="./style.css" rel="stylesheet">
+        <script src="./script.js"></script>
+    </head>
+    
+    <!-- BODY => THE SKELETON OF HTML -->
+    <body>
+        <!-- This is the body content! => NEVER HAVE FREE TEXT AS A CHILD OF BODY -->
+
+        <!-- BLOCK ELEMENTS => They occupy full width and are rendered on a newline -->
+        <!-- div, h1, h2, h3, h4, h5, h6, p, section, header, main, footer, li -->
+        <p>This is the first p tag</p>
+        <!-- inline styling => AVOID THIS AT ALL COSTS -->
+        <p style="border: 5px solid red; padding: 5px;">This is the body content!</p>
+
+<!-- INLINE ELEMENTS => They occupy only the space needed by the content and are not rendered on a newline -->
+        <!-- span, a, img, nav -->
+        <span>This is my first span tag</span>
+        <span>This is my second span tag</span>
+
+        <!-- Container TAGS => are used to make section/division of the page. -->
+        <!-- the DIV tag is like the base of the other tags -->
+        <div>
+            <div>
+                <h1>This is the first section</h1>
+                <p>This is the place where the content of the first section goes</p>
+                <div></div>
+                <footer></footer>
+                <header></header>
+            </div>
+            <div>
+                <h1>This is the second section</h1>
+                <p>This is the place where the content of the second section goes</p>
+            </div>
+        </div>
+        <!-- ADDRESS ACCESSIBILITY ISSUES, READABILITY, SEMANTIC -->
+        <header></header> 
+        <footer></footer>
+        <main></main>
+        <section></section>
+
+
+        <!-- ANCHOR TAG => CREATES A LINK (INTERNAL OR EXTERNAL) -->
+        <!-- EXTERNAL LINK => takes us to another page -->
+        <a href="https://www.google.com">google</a>
+        <a href="./structure.html">Go to structure.html</a>
+
+        <!-- INTERNAL LINK => takes us to a part of our current page -->
+
+        <a href="#first">go to footer</a>
+
+        <!-- IMG tag -->
+        <img src="./blackhole.jpg"/>
+        <img src="https://cdn.cnn.com/cnnnext/dam/assets/190121090951-04-blood-moon-global-01212019-exlarge-169.jpg">
+        
+        <p>1</p>
+        <p>2</p>
+        <p>a</p>
+        <p>a</p>
+
+        <!-- FORMS -->
+        <form>
+            <!-- input tag => helps us in capturing user input -->
+            <input type="text" placeholder="Your name" />
+            <input type="password" placeholder="password" />
+            <input type="number" placeholder="numbers only" />
+            <input type="date" placeholder="" />
+            <input type="file" placeholder="numbers only" />
+
+            <!-- textarea -->
+            <textarea></textarea>
+            
+            <!-- DROPDOWN -->
+            <select>
+                <option value="ishaan">Ishaan</option>
+                <option value="arnav" selected>Arnav</option>
+                <option value="fatima">Fatima</option>
+                <option value="yashvi">Yashvi</option>
+                <option value="sumant">Sumant</option>
+            </select>
+
+            <!-- buttons -->
+
+            <button>SUBMIT</button>
+        </form>
+
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+    </body>
+</html>

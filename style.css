@@ -1,0 +1,42 @@
+html, 
+body {
+    margin: 0;
+}
+
+/* specificity */
+/* 
+1. ID       = AVOID IF POSSIBLE
+2. CLASS    = HAVE AS MANY AS POSSIBLE
+3. TAG NAME = DONT EVER STYLE TAGS DIRECTLY.
+*/
+
+
+/* . denotes class */
+.header {
+    border: 5px solid blue;
+    /* NO SHORTCUTS HERE */
+    /* 
+    border-bottom: 10px dashed red;
+    border-top: 15px dotted green;
+    border-left: 20px solid black;
+    border-right: 25px solid yellow; 
+    */
+    margin: 5px;
+    /*      TOP  RIGHT  BOTTOM LEFT */
+    margin: 20px 10px   25px   15px;
+    /* 
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 10px ; 
+    */
+    padding: 5px;
+    /*      TOP  RIGHT  BOTTOM LEFT */
+    padding: 20px 10px   25px   15px;
+    /* 
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-top: 25px; 
+    */
+}
