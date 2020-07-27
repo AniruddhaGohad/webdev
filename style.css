@@ -40,7 +40,7 @@ body {
     padding-top: 25px; 
     */
 
-    /* to align text/inline elements */
+    /* to align text/children/inline elements */
     text-align: center;
 
     /* to curve a border */
@@ -50,9 +50,44 @@ body {
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.25);
 }
 
+/* .picture {
+    text-align: center;
+} */
+
+/* .picture {
+    display: inline;
+} */
+
 .picture-img {
     border: thin solid black;
     border-radius: 5px;
     padding: 5px;
 }
 
+.hd {
+    position: fixed;
+    z-index: 10;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.25)
+}
+
+/* PSEUDO - CLASSES */
+.primary {
+    outline: none;
+    padding: 20px 15px 20px 15px;
+    margin: 50px 50px;
+    background: teal;
+    border: thin solid rgb(0, 253, 253);
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.primary:hover {
+    cursor: pointer;
+}
+
+.primary:active {
+    background: rgb(0, 100, 100);
+    transform: translateY(2px);
+}
