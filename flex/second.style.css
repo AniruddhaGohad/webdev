@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.image {
+    width: 100%;
+}
+
+.border {
+    border: thin solid #ccc;
+}

@@ -1,0 +1,41 @@
+html,
+body {
+    /* reset the body margins */
+    margin: 0;
+}
+
+p {
+    border: 1px solid black;
+}
+
+div {
+    border: 1px solid red;
+}
+
+.flex-container {
+    /* creates a flex container */
+    display: flex;
+}
+
+.space-between {
+    /* justify-content = spacing in the flex-direction; */
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.column {
+    /* column = all elements act as block elements, 
+        aligns the elems one below other */
+    flex-direction: column;
+}
+
+.row {
+    /* row = all elements act as inline elements, 
+        align the elems besides each other */
+    flex-direction: row;
+}
+
+.flex-item {
+    /* sets the ratio of space taken up by child */
+    /* flex: 1; */
+}
